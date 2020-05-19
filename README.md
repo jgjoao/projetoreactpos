@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+O Projeto consiste em um clone do github aonde o usuario pode colocar o seu repositorio e verificar os mesmo , ele consome a api do github para trazer esse resultado. 
+
+
