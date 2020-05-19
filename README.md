@@ -1,3 +1,8 @@
+O Projeto consiste em um clone do github aonde o usuario pode colocar o seu repositorio e verificar os mesmo , ele consome a api do github para trazer esse resultado. 
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -69,6 +74,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 
-O Projeto consiste em um clone do github aonde o usuario pode colocar o seu repositorio e verificar os mesmo , ele consome a api do github para trazer esse resultado. 
 
 
