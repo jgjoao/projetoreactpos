@@ -3,12 +3,16 @@ image: alphine:latest
 stages:
   - build
   
+
 build_dev:
   image: docker:latest
   stage: build
 
+  
   script:
     - docker build -t reactteste -f Dockerfile .
-     
+  
+  services:
+    - docker:dind
 
  
