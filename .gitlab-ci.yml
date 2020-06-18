@@ -8,7 +8,7 @@ build_dev:
   stage: build
 
   script:
-    -docker build -t reactteste -f Dockerfile .
+    - docker build -t reactteste -f Dockerfile .
      
 
  
