@@ -6,16 +6,9 @@ stages:
 build_dev:
   image: docker:latest
   stage: build
-  tags:
-    -teste
-  variables:
-    DOCKER_TLS_CERTDIR: ""
-  only:
-    - master
-  except:
-    -tags
-  script:
-    -docker build -t reactteste -f Dockerfile . 
 
-  services:
-    - docker: dind
+  script:
+    -docker build -t reactteste -f Dockerfile .
+     
+
+ 
