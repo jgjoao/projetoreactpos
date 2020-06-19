@@ -1,0 +1,23 @@
+services:
+
+  react:
+    build: .
+    networks:
+      - db
+    restart: always
+
+
+  mysql:
+    image: mysql
+    volumes:
+      - ./data/mysql:/data/db
+    ports:
+      - "27017:27017"
+     networks:
+      - db
+    restart: always
+  
+  
+networks:
+ db:
+  drive: brige 
